@@ -10,4 +10,5 @@ test_string = 'https://open.spotify.com/collection/tracks'
 encoded = url_to_base64(test_string)
 
 print(encoded)
+
 print(base64_to_str(encoded))
